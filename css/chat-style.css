@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f3f3f3;
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #2f3136;
+    color: white;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.sidebar h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.user {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #40444b;
+    border-radius: 8px;
+}
+
+.status {
+    display: block;
+    margin-top: 5px;
+    font-size: 0.9em;
+}
+
+.online {
+    color: #4caf50;
+}
+
+.offline {
+    color: #f44336;
+}
+
+.chat-container {
+    flex: 1;
+    padding: 20px;
+    background-color: #eaeaea;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+}
+
+.header {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.messages {
+    flex: 1;
+    overflow-y: auto;
+    margin-bottom: 20px;
+}
+
+.message {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 70%;
+    word-wrap: break-word;
+}
+
+.sent {
+    background-color: #d1e7dd;
+    align-self: flex-end;
+    text-align: right;
+}
+
+.received {
+    background-color: #fff;
+    align-self: flex-start;
+    text-align: left;
+}
+
+.file-link a {
+    display: inline-block;
+    margin-top: 5px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.file-link a:hover {
+    text-decoration: underline;
+}
+
+.meeting-section {
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.meeting-section input, .meeting-section textarea {
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.btn-small {
+    background-color: #3f51b5;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-small:hover {
+    background-color: #303f9f;
+}
